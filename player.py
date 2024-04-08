@@ -14,6 +14,6 @@ class Player:
     def update(self):
         self.movement()
 
-    @property
+    @property               #parei na criação do Player
     def pos(self):
         return self.x, self.y
